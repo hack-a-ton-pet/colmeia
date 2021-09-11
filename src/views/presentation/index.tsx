@@ -4,6 +4,7 @@ import { ReactComponent as LogoSVG } from '../../assets/logo.svg'
 import AppButton from '../../components/button'
 import TextConstants from '../../constants/Name'
 import PathConstants from '../../constants/Path'
+import HistoryService from '../../services/HIstoryService'
 import './styles.css'
 import HistoryService from '../../services/HIstoryService'
 
