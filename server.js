@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000
 const app = express()
 const email = process.env.EMAIL
 const password = process.env.PASSWORD
+const MAX_FEEDBACK_SIZE = 3000
 
 const transporter = nodemailer.createTransport({
 	service: 'gmail',
@@ -27,7 +28,7 @@ app.post('/sendfeedback', function (req, res) {
 		from: email,
 		to: email,
 		subject: 'Feedback da landing page',
-		text: content.feedback,
+		text: content.feedback.substring(0, MAX_FEEDBACK_SIZE),
 	}
 	transporter.sendMail(mailOptions, function (error, info) {
 		if (error) {
