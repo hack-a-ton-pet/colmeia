@@ -1,20 +1,20 @@
 .feedback .body {
-	padding: 75px;
-	padding-top: 0px;
+	padding: 6em;
 }
 
 .feedback .body .title {
 	font-family: Boogaloo;
-	font-size: 55px;
+	font-size: 75px;
 	text-align: center;
 }
 
 .feedback .body .content {
 	margin-top: 10px;
 	font-family: Poppins;
-	font-size: 30px;
+	font-size: 25px;
+	justify-self: center;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 5em;
 }
 
 .feedback .body .feedback-container {
@@ -48,18 +48,19 @@
 }
 
 .feedback .body .feedback-container .appbutton {
-	width: 150px;
-	margin-top: 20px;
+	width: 175px;
+	margin-top: 2em;
 }
 
 .feedback .body .link {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
 	align-items: center;
 	font-family: Poppins;
+	justify-content: center;
 	font-weight: bolder;
-	font-size: 40px;
+	font-size: 30px;
+	margin: 2em 0;
 }
 
 .feedback .body .link .figma-box {
@@ -76,4 +77,8 @@
 .feedback .body .link .figma {
 	width: 80px;
 	height: 80px;
+}
+
+.feedback .MuiFilledInput-multiline {
+	padding: 18px 12px 16px;
 }
