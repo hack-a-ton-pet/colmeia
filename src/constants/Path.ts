@@ -1,8 +1,7 @@
 class Path {
-	ROOT = 'https://colmeia.herokuapp.com'
-	SEND_FEEDBACK = `${this.ROOT}/sendfeedback`
-	PRESENTATION = `/`
-	FEEDBACK = `/feedback`
+	SEND_FEEDBACK = `https://colmeia.herokuapp.com/api/sendfeedback`
+	PRESENTATION = `/app/`
+	FEEDBACK = `/app/feedback`
 }
 
 export default new Path()

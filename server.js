@@ -25,7 +25,7 @@ app.use(favicon(path.join(__dirname, './public', 'favicon.ico')))
 app.use(compression())
 app.use(express.json())
 
-app.post('/sendfeedback', function (req, res) {
+app.post('/api/sendfeedback', function (req, res) {
 	const content = req.body
 	const mailOptions = {
 		from: email,
@@ -49,11 +49,11 @@ app.use((req, res) => {
 	}
 })
 
-app.get('/feedback', function (req, res) {
+app.get('/app/feedback', function (req, res) {
 	res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
 
-app.get('/', function (req, res) {
+app.get('/app/', function (req, res) {
 	res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
 
