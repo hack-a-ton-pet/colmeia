@@ -2,16 +2,16 @@ import React from 'react'
 import { Router, Switch, Route } from 'react-router-dom'
 import Path from '../constants/Path'
 import HistoryService from '../services/HIstoryService'
-import Login from './login'
+import Presentation from './presentation'
 import NotFound from './not_found'
-import Register from './register'
+import Feedback from './feedback'
 
 const Main: React.FC = () => {
 	return (
 		<Router history={HistoryService}>
 			<Switch>
-				<Route exact path={Path.LOGIN} component={Login} />
-				<Route exact path={Path.REGISTER} component={Register} />
+				<Route exact path={Path.PRESENTATION} component={Presentation} />
+				<Route exact path={Path.FEEDBACK} component={Feedback} />
 				<Route path={'/'} component={NotFound} />
 			</Switch>
 		</Router>
