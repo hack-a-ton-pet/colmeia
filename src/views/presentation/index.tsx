@@ -4,9 +4,8 @@ import professorPNG from '../../assets/screens/professor.png'
 import { ReactComponent as LogoSVG } from '../../assets/logo.svg'
 import AppButton from '../../components/button'
 import TextConstants from '../../constants/Name'
-import './styles.css'
 import PathConstants from '../../constants/Path'
-import HistoryService from '../../services/HistoryService'
+import './styles.css'
 
 export const Header = () => {
 	return (
