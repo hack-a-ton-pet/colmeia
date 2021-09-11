@@ -1,4 +1,3 @@
-import React from 'react'
 import { ReactComponent as LogoSVG } from '../../assets/logo.svg'
 import NameConstants from '../../constants/Name'
 import './styles.css'

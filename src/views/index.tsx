@@ -4,7 +4,7 @@ import Path from '../constants/Path'
 import HistoryService from '../services/HIstoryService'
 import { Presentation } from './presentation'
 import NotFound from './not_found'
-import Feedback from './feedback'
+import { Feedback } from './feedback'
 
 const Main: React.FC = () => {
 	return (
