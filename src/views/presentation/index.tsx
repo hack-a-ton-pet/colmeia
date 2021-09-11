@@ -1,4 +1,3 @@
-import React from 'react'
 import commentPNG from '../../assets/screens/comment.png'
 import professorPNG from '../../assets/screens/professor.png'
 import { ReactComponent as LogoSVG } from '../../assets/logo.svg'
