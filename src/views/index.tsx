@@ -2,7 +2,7 @@ import React from 'react'
 import { Router, Switch, Route } from 'react-router-dom'
 import Path from '../constants/Path'
 import HistoryService from '../services/HIstoryService'
-import Presentation from './presentation'
+import { Presentation } from './presentation'
 import NotFound from './not_found'
 import Feedback from './feedback'
 
