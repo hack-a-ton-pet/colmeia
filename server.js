@@ -49,11 +49,11 @@ app.use((req, res) => {
 	}
 })
 
-app.get('/app/feedback', function (req, res) {
+app.get('/feedback', function (req, res) {
 	res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
 
-app.get('/app/', function (req, res) {
+app.get('/', function (req, res) {
 	res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
 
