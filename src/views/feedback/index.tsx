@@ -19,6 +19,8 @@ const Feedback: React.FC = () => {
 
 	const handleSendFeedback = () => {
 		FeedbackService.sendFeedback(feedback)
+		setFeedback('')
+		alert('Muito obrigado!')
 	}
 
 	return (
