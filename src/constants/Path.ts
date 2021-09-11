@@ -1,7 +1,7 @@
 class Path {
 	ROOT = 'localhost:3000'
-	LOGIN = `/`
-	REGISTER = `/register`
+	VIEW_1 = `/`
+	VIEW_2 = `/register`
 }
 
 export default new Path()

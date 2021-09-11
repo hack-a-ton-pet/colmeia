@@ -1,0 +1,18 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	font-family: Poppins;
+	margin-top: 1em;
+}
+
+.header .header__logo {
+	font-weight: normal;
+	font-size: 175px;
+	line-height: 208px;
+	font-family: Boogaloo;
+}
+
+.header .header__logo_svg {
+	margin: 0 1em;
+	padding: 0 0 2em;
+}

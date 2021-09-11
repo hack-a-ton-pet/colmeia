@@ -1,5 +1,5 @@
-import './App.css'
 import Main from './views'
+import './App.css'
 
 function App() {
 	return (
