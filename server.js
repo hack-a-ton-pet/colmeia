@@ -9,6 +9,9 @@ const email = process.env.EMAIL
 const password = process.env.PASSWORD
 const MAX_FEEDBACK_SIZE = 3000
 
+console.log(process.env.EMAIL)
+console.log(process.env.PASSWORD)
+
 const transporter = nodemailer.createTransport({
 	service: 'gmail',
 	auth: {
