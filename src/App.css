@@ -5,7 +5,7 @@
 }
 
 .app {
-	font-family: Poppins;
+	font-family: Boogaloo;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -13,4 +13,5 @@
 	right: 0;
 	overflow: hidden;
 	background-color: var(--primary-lighter-color);
+	background-color: #efab5f;
 }
