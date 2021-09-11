@@ -1,5 +1,5 @@
 class Path {
-	ROOT = 'http://localhost:3000'
+	ROOT = 'https://colmeia.herokuapp.com/'
 	SEND_FEEDBACK = `${this.ROOT}/sendfeedback`
 	PRESENTATION = `/`
 	FEEDBACK = `/feedback`
