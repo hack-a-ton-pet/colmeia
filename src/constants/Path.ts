@@ -1,5 +1,5 @@
 class Path {
-	SEND_FEEDBACK = `https://colmeia.herokuapp.com/api/sendfeedback`
+	SEND_FEEDBACK = `https://colmeiau-api.herokuapp.com/sendfeedback`
 	PRESENTATION = `/`
 	FEEDBACK = `/feedback`
 }
