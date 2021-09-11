@@ -3,16 +3,71 @@
 	flex-direction: row;
 	font-family: Poppins;
 	margin-top: 1em;
+	padding: 2em;
 }
 
-.header .header__logo {
-	font-weight: normal;
+.content_presentation {
+	display: flex;
+	flex-direction: row;
+}
+
+.header .header__wrapper .header__wrapper__title {
 	font-size: 175px;
 	line-height: 208px;
 	font-family: Boogaloo;
 }
+.header .header__wrapper .header__wrapper__subtitle {
+	margin-top: -0.55em;
+	margin-left: 0.5em;
+}
 
-.header .header__logo_svg {
+.header
+	.header__wrapper
+	:is(.header__wrapper__title, .header__wrapper__subtitle) {
+	font-weight: normal;
+}
+
+.header .header__wrapper_svg {
 	margin: 0 1em;
 	padding: 0 0 2em;
+}
+
+.content_presentation {
+	padding: 8em;
+	max-width: 90%;
+}
+
+.content_presentation__text {
+	margin-bottom: 2em;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 42px;
+	text-align: justify;
+	margin: 0 0 2em 8em;
+}
+.content_presentation .appbutton {
+	margin-left: auto;
+	display: flex;
+}
+.content_presentation .screen_svg {
+	width: 50%;
+	height: 50%;
+}
+.content_presentation__image_wrapper {
+	display: flex;
+	align-items: center;
+	width: 300px;
+	height: 600px;
+}
+
+.content_presentation__image_wrapper__img {
+	width: 250px;
+	height: 600px;
+}
+
+.content_presentation__image_wrapper__img.professor {
+	margin-top: 100px;
+	margin-left: -50px;
 }

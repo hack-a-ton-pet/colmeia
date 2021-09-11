@@ -1,4 +1,18 @@
+.appbutton.MuiButton-contained {
+	background: #ecc498;
+	border-radius: 20px;
+	width: 349px;
+	height: 89px;
+	font-size: 1.75rem;
+}
+.appbutton .MuiButton-label {
+	color: #452316;
+	font-family: Poppins;
+	font-weight: bolder;
+	font-size: 130%;
+	padding: 0;
+}
+
 .appbutton {
-	background: #452316;
-	border-radius: 30px;
+	text-transform: none;
 }
