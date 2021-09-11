@@ -50,7 +50,7 @@ app.get('*', function (req, res) {
 	res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
 
-pp.get('/feedback', function (req, res) {
+app.get('/feedback', function (req, res) {
 	res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
 
