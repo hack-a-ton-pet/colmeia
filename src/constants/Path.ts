@@ -1,7 +1,8 @@
 class Path {
-	ROOT = 'localhost:3000'
-	VIEW_1 = `/`
-	VIEW_2 = `/register`
+	ROOT = 'http://localhost:3000'
+	SEND_FEEDBACK = `${this.ROOT}/sendfeedback`
+	PRESENTATION = `/`
+	FEEDBACK = `/feedback`
 }
 
 export default new Path()

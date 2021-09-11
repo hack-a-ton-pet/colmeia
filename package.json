@@ -12,6 +12,8 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "dexie": "^3.0.3",
+    "express-favicon": "^2.0.1",
+    "nodemailer": "^6.6.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.1",
