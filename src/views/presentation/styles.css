@@ -34,7 +34,6 @@
 
 .content_presentation {
 	padding: 8em;
-	max-width: 90%;
 }
 
 .content_presentation__text {
@@ -45,7 +44,8 @@
 	font-size: 28px;
 	line-height: 42px;
 	text-align: justify;
-	margin: 0 0 2em 8em;
+	margin: 0 0 2em 10em;
+	max-width: 80%;
 }
 .content_presentation .appbutton {
 	margin-left: auto;
@@ -69,5 +69,5 @@
 
 .content_presentation__image_wrapper__img.professor {
 	margin-top: 100px;
-	margin-left: -50px;
+	margin-left: -40px;
 }
