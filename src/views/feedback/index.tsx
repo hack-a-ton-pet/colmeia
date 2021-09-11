@@ -63,7 +63,7 @@ const Feedback: React.FC = () => {
 						onChange={handleChangeFeedback}
 						InputProps={{ disableUnderline: true }}
 					/>
-					<AppButton text='Enviar' onClick={handleSendFeedback} />
+					<AppButton onClick={handleSendFeedback}>Enviar</AppButton>
 				</div>
 			</div>
 		</div>

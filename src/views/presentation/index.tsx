@@ -5,6 +5,8 @@ import { ReactComponent as LogoSVG } from '../../assets/logo.svg'
 import AppButton from '../../components/button'
 import TextConstants from '../../constants/Name'
 import './styles.css'
+import PathConstants from '../../constants/Path'
+import HistoryService from '../../services/HistoryService'
 
 export const Header = () => {
 	return (
@@ -21,14 +23,19 @@ export const Header = () => {
 }
 
 export const ContentPresentation = () => {
+	const handleAccessApp = () => {
+		HistoryService.push(PathConstants.FEEDBACK)
+	}
 	return (
 		<div className='content_presentation'>
 			<div className='content_presentation__image_wrapper'>
 				<img
+					alt='Imagem da tela de aplicativo mostrando um comentário sobre um professor'
 					className='content_presentation__image_wrapper__img comment'
 					src={commentPNG}
 				/>
 				<img
+					alt='Imagem da tela de aplicativo mostrando um professor'
 					className='content_presentation__image_wrapper__img professor'
 					src={professorPNG}
 				/>
@@ -37,7 +44,7 @@ export const ContentPresentation = () => {
 				{TextConstants.PRESENTATION_ARR.map(t => (
 					<p className='content_presentation__text'>{t}</p>
 				))}
-				<AppButton onClick={() => {}}>Acesse agora!</AppButton>
+				<AppButton onClick={handleAccessApp}>Acesse agora!</AppButton>
 			</div>
 		</div>
 	)
